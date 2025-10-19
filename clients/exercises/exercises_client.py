@@ -6,7 +6,7 @@ from clients.private_http_builder import AuthenticationUserDict, get_private_htt
 
 class Exercise(TypedDict):
     """
-    Описание структуры задания.
+    Описание структуры упражнения.
     """
     id: str
     title: str

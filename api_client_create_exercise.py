@@ -9,7 +9,6 @@ from tools.fakers import get_random_email
 
 public_users_client = get_public_users_client()
 
-# Создаем пользователя
 create_user_request = CreateUserRequestDict(
     email=get_random_email(),
     password="string",
@@ -41,7 +40,6 @@ print('Create file data:', create_file_response)
 
 # Создать курс с помощью метода CoursesClient.create_course.
 
-# Создаем курс
 create_course_request = CreateCourseRequestDict(
     title="Python",
     maxScore=100,
@@ -56,7 +54,6 @@ print('Create course data:', create_course_response)
 
 # Создать задание с помощью метода ExercisesClient.create_exercise.
 
-# Создаем упражнение
 create_exercise_request = CreateExerciseRequestDict(
     title="Exercise 1",
     courseId=create_course_response['course']['id'],
