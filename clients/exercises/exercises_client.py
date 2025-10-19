@@ -150,7 +150,7 @@ class ExercisesClient(APIClient):
         return response.json()
 
 
-# builder для CoursesClient
+# builder для ExercisesClient
 def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
     """
     Функция создаёт экземпляр ExercisesClient с уже настроенным HTTP-клиентом.
