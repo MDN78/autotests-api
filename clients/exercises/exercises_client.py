@@ -38,6 +38,13 @@ class CreateExerciseRequestDict(TypedDict):
     estimatedTime: str
 
 
+class CreateExerciseResponseDict(TypedDict):
+    """
+    Описание структуры ответа создания задания.
+    """
+    exercise: Exercise
+
+
 class UpdateExerciseRequestDict(TypedDict):
     """
     Описание структуры запроса на обновление упражнения.
@@ -50,11 +57,25 @@ class UpdateExerciseRequestDict(TypedDict):
     estimatedTime: str | None
 
 
+class GetExerciseResponseDict(TypedDict):
+    """
+    Описание структуры ответа на получение задания..
+    """
+    exercise: Exercise
+
+
 class GetExercisesResponseDict(TypedDict):
     """
     Описание структуры ответа на создание упражнения.
     """
     exercises: list[Exercise]
+
+
+class UpdateExerciseResponseDict(TypedDict):
+    """
+    Описание структуры ответа обновления задания.
+    """
+    exercise: Exercise
 
 
 class ExercisesClient(APIClient):
@@ -118,7 +139,7 @@ class ExercisesClient(APIClient):
         response = self.get_exercises_api(query)
         return response.json()
 
-    def get_exercise(self, exercise_id: str) -> GetExercisesResponseDict:
+    def get_exercise(self, exercise_id: str) -> GetExerciseResponseDict:
         """
         Метод получения информации об упражнении по exercise_id
 
@@ -128,7 +149,7 @@ class ExercisesClient(APIClient):
         response = self.get_exercise_api(exercise_id)
         return response.json()
 
-    def create_exercise(self, request: CreateExerciseRequestDict) -> GetExercisesResponseDict:
+    def create_exercise(self, request: CreateExerciseRequestDict) -> CreateExerciseResponseDict:
         """
         Метод создания упражнения.
 
@@ -138,7 +159,7 @@ class ExercisesClient(APIClient):
         response = self.create_exercise_api(request)
         return response.json()
 
-    def update_exercise(self, exercise_id, request: UpdateExerciseRequestDict) -> GetExercisesResponseDict:
+    def update_exercise(self, exercise_id, request: UpdateExerciseRequestDict) -> UpdateExerciseResponseDict:
         """
         Метод обновления упражнения.
 
