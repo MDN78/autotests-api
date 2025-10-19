@@ -15,9 +15,8 @@ create_user_request = CreateUserRequestDict(
     middleName="string"
 )
 # Отправляем POST запрос на создание пользователя
-create_user_response = public_users_client.create_user_api(create_user_request)
-create_user_response_data = create_user_response.json()
-print('Create user data:', create_user_response_data)
+create_user_response = public_users_client.create_user(create_user_request)
+print('Create user data:', create_user_response)
 
 # Инициализируем пользовательские данные для аутентификации
 authentication_user = AuthenticationUserDict(
@@ -28,6 +27,5 @@ authentication_user = AuthenticationUserDict(
 private_users_client = get_private_users_client(authentication_user)
 
 # Отправляем GET запрос на получение данных пользователя
-get_user_response = private_users_client.get_user_api(create_user_response_data['user']['id'])
-get_user_response_data = get_user_response.json()
-print('Get user data:', get_user_response_data)
+get_user_response = private_users_client.get_user(create_user_response['user']['id'])
+print('Get user data:', get_user_response)
