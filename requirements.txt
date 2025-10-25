@@ -9,6 +9,6 @@ httpx==0.28.1
 
 pydantic
 pydantic[email]
-
 jsonschema
 faker
+pytest
