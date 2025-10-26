@@ -1,7 +1,5 @@
 import pytest
 from pydantic import BaseModel, EmailStr
-
-from clients.authentication.authentication_client import AuthenticationClient, get_authentication_client
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import PrivateUsersClient, get_private_users_client
 from clients.users.public_users_client import get_public_users_client, PublicUsersClient
@@ -30,26 +28,8 @@ class UserFixture(BaseModel):
 
 
 @pytest.fixture
-def authentication_client() -> AuthenticationClient:
-    return get_authentication_client()
-
-
-@pytest.fixture
 def public_users_client() -> PublicUsersClient:
     return get_public_users_client()
-
-
-@pytest.fixture
-# Используем фикстуру public_users_client, которая создает нужный API клиент
-def function_user(public_users_client: PublicUsersClient) -> UserFixture:
-    """
-    Фикстура для создания пользователя
-    :param public_users_client:
-    :return: UserFixture, request and response
-    """
-    request = CreateUserRequestSchema()
-    response = public_users_client.create_user(request)
-    return UserFixture(request=request, response=response)  # Возвращаем все нужные данные
 
 
 @pytest.fixture
@@ -58,3 +38,15 @@ def private_users_client(function_user: UserFixture) -> PrivateUsersClient:
     Возвращает инициализированный клиент PrivateUsersClient
     """
     return get_private_users_client(function_user.authentication_user)
+
+
+@pytest.fixture
+def function_user(public_users_client: PublicUsersClient) -> UserFixture:
+    """
+    Фикстура для создания пользователя с помощью public_users_client
+    :param public_users_client:
+    :return: UserFixture, request and response
+    """
+    request = CreateUserRequestSchema()
+    response = public_users_client.create_user(request)
+    return UserFixture(request=request, response=response)  # Возвращаем все нужные данные
