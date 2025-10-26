@@ -28,8 +28,8 @@ def test_create_user(public_users_client: PublicUsersClient):
 @pytest.mark.regression
 def test_get_user_me(private_users_client: PrivateUsersClient, function_user: UserFixture):
     user_response = private_users_client.get_user_me_api()
-    get_user_response_data = GetUserResponseSchema.model_validate_json(user_response.text)
+    user_response_data = GetUserResponseSchema.model_validate_json(user_response.text)
 
     assert_status_code(user_response.status_code, HTTPStatus.OK)
-    assert_get_user_response(get_user_response_data, function_user.response)
-    validate_json_schema(user_response.json(), get_user_response_data.model_json_schema())
+    assert_get_user_response(user_response_data, function_user.response)
+    validate_json_schema(user_response.json(), user_response_data.model_json_schema())
