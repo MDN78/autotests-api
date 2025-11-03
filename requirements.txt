@@ -12,3 +12,4 @@ pydantic[email]
 jsonschema
 faker
 pytest
+pytest-rerunfailures
