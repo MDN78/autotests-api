@@ -15,8 +15,7 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.regression
 class TestExercises:
 
-    def test_create_exercise(self, function_user: UserFixture, function_course: CourseFixture,
-                             exercises_client: ExercisesClient):
+    def test_create_exercise(self, function_course: CourseFixture, exercises_client: ExercisesClient):
         create_exercise_request = CreateExerciseRequestSchema(
             courseId=function_course.response.course.id,
         )
