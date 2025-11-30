@@ -9,7 +9,7 @@ from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
-    assert_update_exercise_response
+    assert_update_exercise_response, assert_exercise_not_found_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -44,3 +44,11 @@ class TestExercises:
         assert_status_code(response.status_code, HTTPStatus.OK)
         assert_update_exercise_response(request, response_data)
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+    def test_delete_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
+        response = exercises_client.delete_exercise_api(function_exercise.response.exercise.id)
+        assert_status_code(response.status_code, HTTPStatus.OK)
+
+        request = exercises_client.get_exercise_api(function_exercise.response.exercise.id)
+        assert_status_code(request.status_code, HTTPStatus.NOT_FOUND)
+        assert_exercise_not_found_response(request)
