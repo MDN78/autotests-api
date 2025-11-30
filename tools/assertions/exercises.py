@@ -72,13 +72,13 @@ def assert_update_exercise_response(
     assert_equal(request.estimated_time, response.exercise.estimated_time, "estimated_time")
 
 
-def assert_exercise_not_found_response(response: InternalErrorResponseSchema):
+def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     """
-    Метод проверки, что тела ответа на запрос получения задания содержит внутреннюю ошибку Exercise not found
-    :param response: Ответ API с данными
-    :return: AssertionError: Если данные не совпадают.
-    """
-    response_data = InternalErrorResponseSchema.model_validate_json(response.text)
-    expected = InternalErrorResponseSchema(detail="Exercise not found")
+    Функция для проверки ошибки, если задание не найдено на сервере.
 
-    assert_internal_error_response(response_data, expected)
+    :param actual: Фактический ответ.
+    :raises AssertionError: Если фактический ответ не соответствует ошибке "Exercise not found"
+    """
+    expected = InternalErrorResponseSchema(details="Exercise not found")
+    assert_internal_error_response(actual, expected)
+
