@@ -13,3 +13,4 @@ jsonschema
 faker
 pytest
 pytest-rerunfailures
+allure-pytest==2.15.2
