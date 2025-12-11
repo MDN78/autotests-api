@@ -1,18 +1,11 @@
-#gRPC
-grpcio==1.75.1
-grpcio-tools==1.75.1
-#websocket
-websockets==15.0.1
-
-# HTTPX
-httpx==0.28.1
-
-pydantic
+pydantic==2.12.3
 pydantic[email]
-jsonschema
-faker
-pytest
-pytest-rerunfailures
+email-validator==2.3.0
+jsonschema==4.25.1
+faker==37.11.0
+pytest==8.4.2
+pytest-rerunfailures==16.1
 allure-pytest==2.15.2
 pydantic-settings==2.12.0
 pytest-xdist==3.8.0
+httpx==0.28.1
