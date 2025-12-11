@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjQ3OjAwLjY0MDQyMCIsInVzZXJfaWQiOiI2N2RhYjgwNS1mMjFhLTRkNDQtODJhMS1iNzliYjUxNmU3MjAifQ.MOkjFdUwG2VS43-B5Vsn-DFs8A-4A82UdQdrAtcpC2k' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready whether be yourself capital early.","courseId":"f9c2ae08-9f3c-4fbd-ba54-abcdecc428cf","maxScore":81,"minScore":3,"orderIndex":18,"description":"With system resource fund treat way account. Indicate security recently weight large bit which north.\nGrow indicate PM it garden. Offer song control wrong argue.","estimatedTime":"8 weeks"}'

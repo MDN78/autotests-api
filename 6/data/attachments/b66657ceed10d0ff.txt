@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjQ2OjU4LjI0MjQwMiIsInVzZXJfaWQiOiJmMDE1M2ZmMi1kNWUwLTQ5MDctOTU2My1mMjQyZTM0MzdlMGYifQ.jKeX2aT-TkNbxcL0phf7cqF6HV7VQt8McQC5QqAvAhw' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ball pull candidate.","maxScore":95,"minScore":4,"description":"Season how enough. Him fire yourself end on paper several decade.\nOfficer scientist might remain born. Network practice base out paper.\nHerself bill government old exist building condition.","estimatedTime":"2 weeks","previewFileId":"96461670-2b14-4888-8cf5-4d5b7d388be1","createdByUserId":"f0153ff2-d5e0-4907-9563-f242e3437e0f"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/58b0fb2c-8bbb-4cd8-8629-65210f9362f4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjQ2OjU5LjQxOTY1NSIsInVzZXJfaWQiOiJhZTVhYzdmMS1kZmYyLTRlMjUtYTkwZi1iZTgxYjY0YmQ0ODkifQ.5HrIj9s_XWP00e-1jcdNylEDsW_vQIHy7t4SwBXx-m0' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Despite talk research too.","maxScore":86,"minScore":13,"description":"Step source win season book speech. Live my itself old. Not notice event hope during trade seven director. Attack put attention military wide yes ok.","estimatedTime":"6 weeks"}'

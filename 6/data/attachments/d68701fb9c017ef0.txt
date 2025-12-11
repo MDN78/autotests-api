@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjQ2OjU5LjQxOTY1NSIsInVzZXJfaWQiOiJhZTVhYzdmMS1kZmYyLTRlMjUtYTkwZi1iZTgxYjY0YmQ0ODkifQ.5HrIj9s_XWP00e-1jcdNylEDsW_vQIHy7t4SwBXx-m0' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit everything hear page somebody listen.","maxScore":54,"minScore":30,"description":"Baby see eye easy reduce finish trip past.\nAsk sort science generation. Wide same seem who despite. Computer condition training look order camera.","estimatedTime":"9 weeks","previewFileId":"ebfb5e56-ce7f-40c4-b50b-268b4eb152b8","createdByUserId":"ae5ac7f1-dff2-4e25-a90f-be81b64bd489"}'

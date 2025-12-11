@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Huge standard million something he feeling lawyer.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Look star after base especially. Cold mention recognize lose.
+Before against first speech parent. Set phone admit traditional. Agency what former soldier none.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 19862fd6-e2a1-4c7f-bd9b-2cacd5b10a3e
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to d74f5d99-50f1-4ff6-8d57-301577002cf6
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema
