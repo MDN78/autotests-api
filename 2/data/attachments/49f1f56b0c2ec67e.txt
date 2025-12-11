@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjI2OjMxLjUyMjg1NiIsInVzZXJfaWQiOiI1ZTRmMGRiZC01YmE5LTRmZTEtYjUyZi1kM2YzNDNmYWIyNDMifQ.umr2Uz6Hli3zz25-PfEpjOyekyVhfwF0XI3vt6zMLrE' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development respond city him trip.","courseId":"0bf5d527-b3e7-4bd7-850a-d13afe5c47f4","maxScore":60,"minScore":24,"orderIndex":76,"description":"Home over control matter clear sign. Long operation ability help. Parent after eye though able even question. Various up garden.","estimatedTime":"9 weeks"}'

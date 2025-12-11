@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjI2OjMwLjk1OTQwNSIsInVzZXJfaWQiOiI2NTIwZjI1Zi00OWI1LTQ2YWYtOTMzZS0zNmJiYTM5YmRmMmEifQ.bxsN1-YFOZjGIOY9xo6mHXkpTssa8Oa_-XfX1o2FpVU' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development hit law agency break concern impact.","maxScore":95,"minScore":16,"description":"Thank speak officer artist go. Often forward employee modern effect.\nWant improve over. Want year per loss official. Worry rule there case explain party.","estimatedTime":"4 weeks","previewFileId":"815859b9-ae09-46a4-b47d-e52c6c3c492d","createdByUserId":"6520f25f-49b5-46af-933e-36bba39bdf2a"}'

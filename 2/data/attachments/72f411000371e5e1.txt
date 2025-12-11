@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/84e44a89-978c-41a2-bcc6-9cdaacf3a65f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjI2OjMyLjA4MjgzMyIsInVzZXJfaWQiOiI4ZDRmM2UzYi0xYTRjLTRmNDgtOWYzOS02ZmNjOTA5MTM4MzIifQ.KtMgZlm6BOyUrWDcOGYiNHlEPeosbQ2h76stV0zx6dA' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It race likely entire.","maxScore":78,"minScore":10,"orderIndex":40,"description":"Decide economic peace probably amount class take road. Middle on concern start. Here owner say ten true force. Week pattern TV focus share response.\nSuggest believe reality still success smile.","estimatedTime":"4 weeks"}'

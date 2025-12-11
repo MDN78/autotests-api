@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjI2OjMzLjgwNjM1NCIsInVzZXJfaWQiOiJkNjI1ZWQ1Mi1iMGVkLTQ1ZmYtYjU0NS01NDE0Njc5YjkyNzAifQ.PSpR1TWFwzeqb0NogEcUqNkIQqVBAFh6y9BA4NH4crk' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Artist significant suffer garden store outside.","maxScore":81,"minScore":16,"description":"Family car discover culture season. Matter them win purpose especially drive ability. Professor believe bed current board upon high like.\nWith community couple certain. Once environment sea garden.","estimatedTime":"6 weeks","previewFileId":"c35c4410-6ea7-424c-9594-b944eb941523","createdByUserId":"d625ed52-b0ed-45ff-b545-5414679b9270"}'

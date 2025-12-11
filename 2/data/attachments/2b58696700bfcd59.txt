@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjI2OjMyLjY0MDgwNCIsInVzZXJfaWQiOiJiNjJhMjg1YS1iMTBkLTQ0Y2UtYmZhMy04ZmJmMjhkYzM2NGQifQ.kzRwlZxmblGKvc_qCCIsOcpy0NjuRRjtfeMXrsZ56Hc' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Marriage air change others image.","maxScore":88,"minScore":13,"description":"Dark energy campaign next worry anything. People PM lose character message community.\nVisit every try what finish. Visit partner hotel carry Democrat. Forget including cut wind it.","estimatedTime":"2 weeks","previewFileId":"d495b358-5008-4eff-978b-91d247c80881","createdByUserId":"b62a285a-b10d-44ce-bfa3-8fbf28dc364d"}'
