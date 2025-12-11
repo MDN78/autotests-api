@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjQ4OjA1LjA2MDYyNyIsInVzZXJfaWQiOiJiYjVjZmFiYS04NzM5LTQ3N2YtYjI5ZC0yZmU5YzAyNzQ5ZjcifQ.W2N5FTlRXPuWrPv-pzfAkPYQfb3e8hgxvJAkcJA0g7M' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Short Democrat should her stuff either simply.","maxScore":93,"minScore":3,"description":"Responsibility relationship cover office officer mission gas. Contain build weight author eight address. Idea build population politics community.","estimatedTime":"7 weeks","previewFileId":"ae44a11c-4e8c-4a58-a821-ad4324ede364","createdByUserId":"bb5cfaba-8739-477f-b29d-2fe9c02749f7"}'

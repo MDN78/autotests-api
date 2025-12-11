@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjQ4OjA2LjIzNDY1MSIsInVzZXJfaWQiOiJlYzdkNjU4OC0wNDczLTRlMDQtYmRjOC1lY2NkY2RlN2I4ZGUifQ.wL3CRR8ZLtKVZ_AtLoctwlBkDJzQ5HU9TpFGqCnS3I4' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish power bill bit understand suddenly woman.","maxScore":55,"minScore":1,"description":"Question threat name. Population tend short deep apply above.\nJoin there mention. Future body that why behavior.","estimatedTime":"8 weeks","previewFileId":"10db3eda-4725-4391-8530-8b359b1cc802","createdByUserId":"ec7d6588-0473-4e04-bdc8-eccdcde7b8de"}'

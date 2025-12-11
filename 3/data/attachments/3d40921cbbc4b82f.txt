@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjQ4OjA3LjQ0ODE2NyIsInVzZXJfaWQiOiJjMmQwMzdhZi03YmU5LTQ5NDktYTU3Yi1hNjY0NzI4N2I1MDEifQ.09aWZX1fGRmUcNCEC2bwjQ-muJHhqZF9d51p-0F5Iu8' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Child my none tonight may various image.","maxScore":66,"minScore":28,"description":"Story discuss picture once against. Fish throw sense build.\nLet he play which. Money will already hope leg product.","estimatedTime":"8 weeks","previewFileId":"61f3cc18-e7dd-45c5-9a71-435521779957","createdByUserId":"c2d037af-7be9-4949-a57b-a6647287b501"}'

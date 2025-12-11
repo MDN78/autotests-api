@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjQ4OjA1LjY0MzU3MyIsInVzZXJfaWQiOiIxMmY2MThlNS03YmY4LTRhYWEtOWI4MC0xYjdhODE3NDY5YmQifQ.nsLZboXWshc1gjVofJl0Ae6rzJB9PX04NNmgOUYYig8' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Moment however show dog all ground.","courseId":"081bb159-2915-40a0-9d85-47319b9e1d86","maxScore":58,"minScore":11,"orderIndex":86,"description":"Effect more single indicate cultural action. Major general health activity which.\nFinally nothing computer cut study give live. Audience meet safe source.","estimatedTime":"5 weeks"}'

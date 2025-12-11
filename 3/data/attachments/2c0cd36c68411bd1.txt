@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEwOjQ4OjAzLjI0NzU4MCIsInVzZXJfaWQiOiIyOGJiMGFiZC1mMzEwLTRkZjItOGZhNi1hYzdlNWUyMDVkYzYifQ.41tr72V5jRx6RRMvGS9YEPQEWvfs_uqO3Rcf96qQedo' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consumer design six against ready something easy.","maxScore":75,"minScore":22,"description":"Power official budget memory college question professional light. Begin sure share idea already she.\nPrevent serve give beautiful that sport since. Form fund happy at card culture back.","estimatedTime":"10 weeks","previewFileId":"26421904-ef68-4f5c-9430-f59a9513ccd5","createdByUserId":"28bb0abd-f310-4df2-8fa6-ac7e5e205dc6"}'
