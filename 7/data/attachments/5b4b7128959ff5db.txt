@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjU4OjE5Ljg2NjEyNCIsInVzZXJfaWQiOiJlZDc4ZTk4Ny1lMDdkLTQzOGMtODMyOS1mNDVhNGZkOWVlYzgifQ.DWcGCH_8kXZp84Cg9A_ULvxrrvJ76K00m-S4cmqOrtA' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Child professional avoid report.","maxScore":96,"minScore":27,"description":"Image thing right dinner safe store sort instead. Nice individual spend ever. Item on upon citizen campaign. Pattern analysis popular same suffer.","estimatedTime":"10 weeks","previewFileId":"33b090bf-6776-4255-b648-4b0dd0d24434","createdByUserId":"ed78e987-e07d-438c-8329-f45a4fd9eec8"}'

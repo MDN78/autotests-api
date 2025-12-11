@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/031ad55b-3719-47c4-8081-ee40513eabf5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjU4OjE4LjY3MjcwMyIsInVzZXJfaWQiOiI4YjI3MTUzOC0xMmZmLTQ4OGItODFiMC1mOTc2MGFiNThlMzcifQ.0tY7BUS-_JROqbh7mUwA4UJVBDRbEIII6j9iu4b_024' \
+  -H 'content-length: 256' \
+  -H 'content-type: application/json' \
+  -d '{"title":"According rather western effort not under picture.","maxScore":86,"minScore":22,"description":"Common past move black report or. Require issue seem generation professional. Major reach third your factor break possible.","estimatedTime":"6 weeks"}'

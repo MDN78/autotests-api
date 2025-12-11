@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjU4OjE3Ljc5MDQwNCIsInVzZXJfaWQiOiIyYjE4MjFkYS0wYzQwLTQ0NzgtOTFiNy0zOGMyZWMzNDYxMzgifQ.nr5d0fcLDgi_3e-LTEbInZcBgpHHp33QVFHqcbnyii4' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"White learn card stand put smile high.","maxScore":83,"minScore":22,"description":"Technology manager accept second identify throughout professional. Community second join seven far ago.","estimatedTime":"9 weeks","previewFileId":"6c361e1e-1254-48f5-a039-c8daa4529683","createdByUserId":"2b1821da-0c40-4478-91b7-38c2ec346138"}'
