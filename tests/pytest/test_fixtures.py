@@ -4,6 +4,7 @@ import pytest
 # Фикстура, которая будет автоматически вызываться для каждого теста
 @pytest.fixture(autouse=True)
 def send_analytics_data():
+
     print("[AUTOUSE] Отправляем данные в сервис аналитики")
 
 
