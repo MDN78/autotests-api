@@ -1,0 +1,9 @@
+# requirements file
+#gRPC
+# grpcio==1.75.1
+# grpcio-tools==1.75.1
+# #websocket
+# websockets==15.0.1
+#
+# # HTTPX
+# httpx==0.28.1
