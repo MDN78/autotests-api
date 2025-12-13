@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjM3OjE5LjIzOTA5OSIsInVzZXJfaWQiOiI0M2FlZThhMS1hZTk0LTQzMDAtOWVkNi1jMzVhZmE4YjUwYzkifQ.BXngHqXXHKCK6clOWJJKQc3l5oV9th_YWbC1u7vomuY' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Weight music national go anyone pass.","maxScore":95,"minScore":18,"description":"General according head. Tend range language put ask nice article reduce. Here discover off require compare especially. Mother happy under fast investment.","estimatedTime":"2 weeks","previewFileId":"9c594ba5-d5c2-4efe-8816-163e6b0bc0f9","createdByUserId":"43aee8a1-ae94-4300-9ed6-c35afa8b50c9"}'

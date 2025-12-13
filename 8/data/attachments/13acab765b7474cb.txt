@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjM3OjIwLjQwNjI1NyIsInVzZXJfaWQiOiI3YTA5ZTYzNi1mMmMyLTQ4ZGItYTQ3Yy04MWFkYzZmMDhhZDgifQ.QrkNgsjXxyTk2ZA4fJ365SfuWkybbPJCAGTM_zQLETo' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Add start production this.","maxScore":63,"minScore":27,"description":"Figure part region various. Girl they include often nor nature. Sometimes environmental into very own somebody.","estimatedTime":"6 weeks","previewFileId":"0fb611a7-ac22-4b19-99b2-d5d60212cf5f","createdByUserId":"7a09e636-f2c2-48db-a47c-81adc6f08ad8"}'

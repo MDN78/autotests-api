@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjM3OjIxLjAzOTQyNiIsInVzZXJfaWQiOiI4NDZmMWI3Ni1hNDc2LTRiMjctOTRjMS05OTBhNTgyZDhiZmIifQ.VRzBovzp1h_zsF6M_VUUJus8pjOofbylytiylr0TwGQ' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Any at grow would want.","maxScore":61,"minScore":28,"description":"Others ahead attack usually. Edge century provide consumer street yourself. None artist manager health night model executive.","estimatedTime":"8 weeks","previewFileId":"bd659ed6-dd35-4d13-9da7-475553c1c496","createdByUserId":"846f1b76-a476-4b27-94c1-990a582d8bfb"}'

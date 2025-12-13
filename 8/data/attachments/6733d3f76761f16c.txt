@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/c9906a43-bb78-4de1-b306-006ed933c409
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/c9906a43-bb78-4de1-b306-006ed933c409
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to c9906a43-bb78-4de1-b306-006ed933c409
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to A spend various attorney agreement school college.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 0cfc7d3e-5bd8-45ce-8820-2baf04a25542
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 58
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Window parent too relate machine. War remain young manage still ready stage. Management everyone picture edge.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema
