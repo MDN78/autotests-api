@@ -180,3 +180,9 @@ pyrightconfig.json
 .idea
 #testing artefacts
 .DS_Store
+
+# coverage
+coverage.html
+coverage-results
+coverage-report.json
+coverage-history.json
