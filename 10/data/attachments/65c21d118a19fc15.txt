@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjQzOjU2LjU4NzgwMiIsInVzZXJfaWQiOiJjN2RjYzk1ZC1jOTgzLTQ3NmEtYmUzZi1lNDZlZTg1YzhiOTQifQ.HCkNkkYTVmHbzWtGYhCcIK62mVJ9t0eBt4EfIt-ONpw' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Class listen interesting table response suffer position break.","maxScore":92,"minScore":5,"description":"Popular project nothing any inside prove. Personal agency turn painting task item its.","estimatedTime":"8 weeks","previewFileId":"8ce2de99-e15b-44f2-9a13-7d1b40412146","createdByUserId":"c7dcc95d-c983-476a-be3f-e46ee85c8b94"}'

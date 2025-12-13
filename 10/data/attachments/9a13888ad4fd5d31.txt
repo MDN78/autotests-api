@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjQzOjU4LjkzMDI4NiIsInVzZXJfaWQiOiJlN2Q5ZTUyOS02NmZiLTRjYmYtYWFhNC02OGY0NWEzMzA3YmQifQ.p8wiBGy4Akdf7MPOfZ_8ZZ-WzddkuGSfRJyaI2vJSTI' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dog air fish few one southern teach.","courseId":"fd9f3a85-ac85-433b-8eae-399c7871bdce","maxScore":81,"minScore":11,"orderIndex":54,"description":"Person media air truth individual. None star song unit think. Health worker knowledge require.\nParent song result rise. Our practice up buy ability life.","estimatedTime":"3 weeks"}'

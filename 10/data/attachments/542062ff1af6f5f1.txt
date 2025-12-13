@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjQ0OjAwLjEyMDM5MiIsInVzZXJfaWQiOiI5ZDI2YWMzYy0yNjU0LTQwZjAtYWEzYy0xZjE0YmVlNDFiMDEifQ.HO7fBmNpQMADlJ0LsWpzbJNbN91F0NoNxVH8prVC4FI' \
+  -H 'content-length: 445' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Better station sound right note stop able effort.","maxScore":68,"minScore":18,"description":"Movement send final help culture. Plan admit into television.\nWhom actually edge country billion begin figure. His result everybody technology effect.\nBlood player agree kitchen bring three cultural.","estimatedTime":"8 weeks","previewFileId":"2821e1c1-ef25-4b53-964d-2eaf8fe3f070","createdByUserId":"9d26ac3c-2654-40f0-aa3c-1f14bee41b01"}'

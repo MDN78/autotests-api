@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjQ0OjAwLjEyMDM5MiIsInVzZXJfaWQiOiI5ZDI2YWMzYy0yNjU0LTQwZjAtYWEzYy0xZjE0YmVlNDFiMDEifQ.HO7fBmNpQMADlJ0LsWpzbJNbN91F0NoNxVH8prVC4FI' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Go wrong early sign talk time left.","courseId":"0a2f2ed6-37d9-462e-a741-11d3e584df10","maxScore":83,"minScore":21,"orderIndex":9,"description":"Time ball like executive dog voice. Nation state professor firm.\nOr environmental key cold couple land teach. Camera little girl have cup.\nVote eye culture air. Plan key science teacher.","estimatedTime":"7 weeks"}'

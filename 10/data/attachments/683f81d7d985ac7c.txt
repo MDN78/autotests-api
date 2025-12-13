@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjQzOjU2Ljg1OTg5MiIsInVzZXJfaWQiOiI3ZWJmYTc0Yi0wMDA1LTRlYTktYWU5Yy1hNTFhM2YzZjRiY2YifQ.iyJwMsu84td-bONMaOCge_m2jFgeUCxVn7vF-Uu9EI0' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Article ready laugh.","maxScore":100,"minScore":9,"description":"Easy total large performance. Economy partner say deep budget once.\nBetween church relate oil still economy drive small. Fish democratic perhaps cold budget.","estimatedTime":"5 weeks","previewFileId":"1ffb13dd-dd6a-433a-8061-850430877f39","createdByUserId":"7ebfa74b-0005-4ea9-ae9c-a51a3f3f4bcf"}'

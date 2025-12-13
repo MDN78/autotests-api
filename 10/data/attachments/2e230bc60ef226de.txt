@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjQzOjU4LjAyNzc4MiIsInVzZXJfaWQiOiJjYWQ1NGI3Zi1mMTQ5LTQzODUtOGVmZS1mZGY5NDc3OWI5ZGYifQ.6RAQmiVwftjIqTpfDpfly3OUUGQxx7yL83aQqPri87k' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Here program mention everything popular case church.","maxScore":93,"minScore":6,"description":"Thought impact bed instead ball. Anything tree popular activity son speak almost.","estimatedTime":"7 weeks","previewFileId":"ae470051-4a4c-494f-b028-af9f2c78bae6","createdByUserId":"cad54b7f-f149-4385-8efe-fdf94779b9df"}'

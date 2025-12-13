@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/e495c884-d007-4a58-bfe0-4a7dff4cc7a3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjQzOjU4LjAyNzc4MiIsInVzZXJfaWQiOiJjYWQ1NGI3Zi1mMTQ5LTQzODUtOGVmZS1mZGY5NDc3OWI5ZGYifQ.6RAQmiVwftjIqTpfDpfly3OUUGQxx7yL83aQqPri87k' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However ball model within.","maxScore":94,"minScore":20,"orderIndex":66,"description":"Ago form pressure remain. Finally drive order order. Inside yes culture blood prevent rule.\nAudience remember let generation leader thought instead property. Star action public.","estimatedTime":"8 weeks"}'
