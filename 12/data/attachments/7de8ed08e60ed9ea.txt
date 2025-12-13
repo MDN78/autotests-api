@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE2OjAzOjAzLjAyMjM0OCIsInVzZXJfaWQiOiJkZjQxYmUxZC02MjNkLTQwNDMtODE2YS05Yzg4YjFiOWM3MTgifQ.kczs3KHG-DU6KA09cvb34Mn1YN12PxFh7tR0KDFHsVQ' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Likely nature rich speech system political generation.","courseId":"64d82263-acac-4805-9534-1e79a3db3cbd","maxScore":82,"minScore":29,"orderIndex":17,"description":"Husband personal hand card need yet so. Report three painting national would board interview.\nPositive mind military usually painting shoulder. Upon color statement financial management decide.","estimatedTime":"6 weeks"}'

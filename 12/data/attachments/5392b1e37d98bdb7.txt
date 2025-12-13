@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE2OjAyOjU5Ljk3ODI2MiIsInVzZXJfaWQiOiI2OTA5NjBjYy03ZTgyLTQxNDYtYjIzMi00Zjk2NjRhMGUyYTIifQ.17PuEHmZmzw_knQzhlckDHnVT_WHgjxpdOyMNSZdNJ4' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Animal option mother course.","maxScore":77,"minScore":17,"description":"Fine toward address. Sort rather guess media wide production. Decade concern four actually yet suffer heavy. While hour us.","estimatedTime":"10 weeks","previewFileId":"541aaf8b-4ef8-4490-ae4b-e24e99e32bcf","createdByUserId":"690960cc-7e82-4146-b232-4f9664a0e2a2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE2OjAzOjAyLjM4Mjk4NiIsInVzZXJfaWQiOiJiZDg2YmQwYS1jODUwLTQ2MTUtYmUzNS1hMWJmZTU1N2ZiYzcifQ.LxgJrP74v4coXx6YxWNpbu2NBmSq8L8JUmnGSuY0q5g' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stage level ago subject line number year employee.","maxScore":66,"minScore":16,"description":"Particularly enter radio ok feeling future.\nUp management lead me away. Sea result couple boy. Piece people pay. Side subject stay.\nOld tough who final. Yes wind amount gun feel even.","estimatedTime":"6 weeks","previewFileId":"1a87ecd5-fe54-42a7-b4e3-499ddf0eacf1","createdByUserId":"bd86bd0a-c850-4615-be35-a1bfe557fbc7"}'

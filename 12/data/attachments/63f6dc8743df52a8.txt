@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE2OjAzOjAxLjc4MjkyNSIsInVzZXJfaWQiOiI4ZDUzMjY4ZS01YmI4LTQ2YjktOWZkMS00Y2ViYWQ0YmZkNjcifQ.QszCU0WyBaXI8ezaA232I3xGCe4gA8kAJ4xJlhSVYYA' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Very stock military eight.","courseId":"7d7fd6b9-108f-4915-874e-2efc5c92cc78","maxScore":51,"minScore":25,"orderIndex":87,"description":"List cell issue marriage popular. All idea think would property arm when behind. Forward another coach close whatever church majority.","estimatedTime":"1 weeks"}'
