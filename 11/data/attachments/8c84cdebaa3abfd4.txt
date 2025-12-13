@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjU5OjI5LjA3NTEyMSIsInVzZXJfaWQiOiIwYjc5ZTI5MC1kY2IyLTQ3NDUtOWI4Mi00ZjViN2QyMTE4NDgifQ.i112Uju52gVZW8HjyBlpukCpTHjHW2873Fkz-dQUQHI' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce practice herself suddenly.","maxScore":71,"minScore":29,"description":"Hit general central around bed office. Realize help early season ahead.\nWhere difference law forget. Just seek law thought word not.\nCurrent difference would thus light. Point door reason.","estimatedTime":"9 weeks","previewFileId":"ac780dcd-b759-494b-a553-b6bbd085d353","createdByUserId":"0b79e290-dcb2-4745-9b82-4f5b7d211848"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjU5OjMyLjAxODY5NCIsInVzZXJfaWQiOiJmYzVlZjI0Mi03NzgxLTRkMDktYWU3Ni1hZDkyMjk3M2YwZDgifQ.eU6suOJ9PUeYETOTCF5dsgBxpBtfNoCpSj2uAo_yVu4' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law national blood room talk position Mr book.","courseId":"4a41533e-7e47-49c0-b526-34577d4b7d45","maxScore":92,"minScore":12,"orderIndex":18,"description":"This method bad deep television candidate cover general. Strategy reach book rise represent standard new wait. Can blood instead.\nAlready one same education nothing help. Ahead Mr five population.","estimatedTime":"3 weeks"}'

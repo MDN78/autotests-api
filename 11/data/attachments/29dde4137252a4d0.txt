@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjU5OjMwLjU1MTQwMyIsInVzZXJfaWQiOiIzNTQ5OGNiZC04YWRlLTRhNmItYWQwZi0yM2RiMmQ1ZGVlYTkifQ.vAJJbV6QpcuzFuRvD-fWayy4_7VP35q4UtXJ-xnsyLo' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Every film manager.","maxScore":73,"minScore":5,"description":"Form something my exist military improve likely yourself.\nSee pay officer positive physical. Hand small such federal science.","estimatedTime":"2 weeks","previewFileId":"a7e89c88-8175-4594-882a-cf32246b65d0","createdByUserId":"35498cbd-8ade-4a6b-ad0f-23db2d5deea9"}'

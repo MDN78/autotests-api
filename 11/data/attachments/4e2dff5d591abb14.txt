@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjU5OjMzLjIzNTE2OCIsInVzZXJfaWQiOiJkMzU3ZmI5Yi04OTk4LTRjNmUtYjhhOS03YTVjMTY5NDFiODAifQ.Eee2J1Xq1ZxuWwlkW59vTUP5CyUp-bKa531ocZjce60' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Management financial who fund.","courseId":"c01c71d0-2da5-4819-93b0-54c10180f83e","maxScore":90,"minScore":17,"orderIndex":24,"description":"Stay parent series end walk claim explain important. To scientist check manage.","estimatedTime":"4 weeks"}'

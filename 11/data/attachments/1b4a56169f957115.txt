@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjU5OjMwLjgyNTUwMiIsInVzZXJfaWQiOiIzMmI5YTBkNy1kZjhjLTRkNDEtYTY4MS0wNzNmODYwMDA2MjcifQ.lI_Y5pQWw1LJQC4-gKuAix9nLFNPFm-gBvOk6pIhRAU' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bag painting mean choose explain.","maxScore":89,"minScore":11,"description":"Win report example. Meeting leg identify. Approach another pattern few. I their news heart throughout do.","estimatedTime":"8 weeks","previewFileId":"8eecc867-7fb3-4e1a-9112-9fbc100f0c53","createdByUserId":"32b9a0d7-df8c-4d41-a681-073f86000627"}'

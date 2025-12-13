@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDE1OjU5OjMxLjc0Mzk2MSIsInVzZXJfaWQiOiI5NTU5NWFlMi03ZjA2LTRkMDEtYWJhZS05YTQzZDk2NWZkNTAifQ.kew6uGnkMKIpjF_U1MHCkSUyrMVPEi1A_s1miAQqPK4' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dark able over onto parent TV truth.","maxScore":68,"minScore":21,"description":"Test bed group never green from. Risk never group learn everybody range.\nMight network suffer attack. Whose worry financial.","estimatedTime":"9 weeks","previewFileId":"e1db8f2f-fcb0-4b71-b7f0-ee675eeaee76","createdByUserId":"95595ae2-7f06-4d01-abae-9a43d965fd50"}'
