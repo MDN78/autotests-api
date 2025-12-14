@@ -5,6 +5,16 @@ the [API Course Test Server](https://github.com/Nikita-Filonov/qa-automation-eng
 tests are written using **Python**, **Pytest**, **Allure**, **Pydantic**, **Faker** and **HTTPX**. The test
 application’s source code is available on [GitHub](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course).
 
+## Stack
+
+<p  align="left">
+<code><img width="5%" title="pycharm" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg"></code>
+<code><img width="5%" title="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"></code>
+<code><img width="5%" title="pytest" src="https://github.com/MDN78/MDN78/blob/main/assets/pytest.png"></code>
+<code><img width="5%" title="HTTPX" src="https://github.com/MDN78/MDN78/blob/main/assets/butterfly.png"></code>  
+<code><img width="5%" title="allure" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_report.png"></code>
+</p>
+
 ## Project Overview
 
 The goal of this project is to automate the testing of the API Course server, focusing on REST API testing. The
