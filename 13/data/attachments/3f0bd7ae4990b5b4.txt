@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjIwOjU0LjMyNTM3OSIsInVzZXJfaWQiOiIwMDQzNWNlNS03YzkzLTQ5YzctODAyOS0yYTIxOTIzZTQ4NjQifQ.frREL8eJBEWvvIkrKhhN5c-dLCJwU3pwtS3qJ2iUcYc' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Old month per relationship ok join.","maxScore":98,"minScore":7,"description":"Special property the. Very wish theory south side war.","estimatedTime":"2 weeks","previewFileId":"c02b0bd9-675f-4622-b374-16e558644d20","createdByUserId":"00435ce5-7c93-49c7-8029-2a21923e4864"}'

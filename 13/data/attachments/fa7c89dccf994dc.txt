@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjIwOjUxLjM5ODk0MSIsInVzZXJfaWQiOiJhOTk3NzAzMS02MTkzLTQ1NWYtYWViNi1hZDJlZTA5NTQ5ODUifQ.Et8VyG75n94jaBU17lVk3j4qdsFBPlStZbLE8RDlgTY' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Husband surface every and fill.","maxScore":50,"minScore":2,"description":"Join financial decision mother four. Agree final light college all factor. Later state respond way onto second movement.","estimatedTime":"1 weeks","previewFileId":"c7226ec1-4a77-4053-825f-8155cbcbadb5","createdByUserId":"a9977031-6193-455f-aeb6-ad2ee0954985"}'

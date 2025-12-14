@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjIwOjU0LjMyNTM3OSIsInVzZXJfaWQiOiIwMDQzNWNlNS03YzkzLTQ5YzctODAyOS0yYTIxOTIzZTQ4NjQifQ.frREL8eJBEWvvIkrKhhN5c-dLCJwU3pwtS3qJ2iUcYc' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Less Republican fine now perform.","courseId":"5e7a670e-d330-4ab9-915c-14a756854efb","maxScore":96,"minScore":24,"orderIndex":1,"description":"Do explain source community some thing. Note decide outside stand book list. As gun ever politics community. Next local politics chair throw become.\nBlood model argue interest information I.","estimatedTime":"4 weeks"}'

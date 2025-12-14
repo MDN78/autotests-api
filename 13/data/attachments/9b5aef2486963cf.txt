@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjIwOjUyLjU2Njg4OSIsInVzZXJfaWQiOiJlZDI2NDQyNi0xN2U5LTQ2ZDEtYTI4NS04YmQyZjBlMTI3NWYifQ.e2-RzqGx6QYj0ERmWkIx_l4ucN8aBSkTstIoSI5Hti8' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Believe of color shake shoulder case.","maxScore":68,"minScore":9,"description":"Soldier sing subject key never student many.\nSituation water impact church stay tax. Else bill necessary second threat.\nTeam sport area head. Experience tonight significant sing.","estimatedTime":"6 weeks","previewFileId":"03de06c0-55af-4848-930b-3801efaabf17","createdByUserId":"ed264426-17e9-46d1-a285-8bd2f0e1275f"}'
