@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ced4e4af-98c9-4247-bad4-1cc67957a1eb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI0Ljg4OTA1OCIsInVzZXJfaWQiOiI1MjkyNTI2ZS05ODBmLTQ4N2QtYmQzYS0xMGI2N2RhNzVjZWEifQ.8y6Uml74ZCHk8mJ9JA1gCu2Nu9WPAQsw3K9jalDRrZg' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Vote space style Republican along.","maxScore":82,"minScore":16,"description":"Between down man watch hundred social.\nAbility data factor even message present bit. Direction base brother manage. Turn cup scene hold.\nPolicy shoulder pick really outside. Bit me various.","estimatedTime":"10 weeks"}'

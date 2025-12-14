@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI0LjMwMzk5MCIsInVzZXJfaWQiOiI0ZWM4MzgzOS1mOGYzLTQyYzgtODkzZC0yZTlmNTkwMjcxYTgifQ.xuTFt6rQY4FksxdCSfPhYqGAP9xBjpc0HHYYeVBn4i4' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perhaps community including environmental city hand.","maxScore":98,"minScore":11,"description":"Specific board yes stuff south lose charge. Imagine laugh draw executive either eye.\nInformation back job investment. Feel media participant discuss foreign relate. Here act level.","estimatedTime":"5 weeks","previewFileId":"b0903afa-484a-4b74-abe7-8df04254ca71","createdByUserId":"4ec83839-f8f3-42c8-893d-2e9f590271a8"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/af8d3bb5-bee4-4ef9-a47b-9b39d86624ca' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI2LjA2MTM2MiIsInVzZXJfaWQiOiJkYWNkYjU1ZC1kNGM2LTQyOGQtODRmMy03ZWMxOWJhODE0ZDQifQ.SYjOroxbfXf_NgaCT0DcLcBD1G4Ve0VTl309EEYLPp0' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stop perhaps break down to call.","maxScore":52,"minScore":12,"orderIndex":99,"description":"Rich benefit provide wish hear step Republican. Third edge key. Great group medical movie letter place interest.","estimatedTime":"6 weeks"}'

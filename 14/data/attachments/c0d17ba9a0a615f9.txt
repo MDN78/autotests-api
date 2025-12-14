@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI3LjI5MTQxOCIsInVzZXJfaWQiOiIxMDdkMWIxOS1hOTY4LTQzMDgtODBmZC1hMDdlMDk4YTNlYzcifQ.l1xXTPig-u1Tlnzg6Amjo8AJXs2sdvuzu8pvrAXiiXk' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Republican senior explain do wait.","maxScore":87,"minScore":23,"description":"This for study treat usually give event. Me budget region agreement. Reflect quality partner real specific state.\nWhat tell near grow hospital economic. Film reflect now no what common maybe.","estimatedTime":"1 weeks","previewFileId":"70cafad3-16a9-4377-baa4-9088c3f1c1b3","createdByUserId":"107d1b19-a968-4308-80fd-a07e098a3ec7"}'

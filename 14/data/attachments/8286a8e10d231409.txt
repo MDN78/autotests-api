@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI2LjA2MTM2MiIsInVzZXJfaWQiOiJkYWNkYjU1ZC1kNGM2LTQyOGQtODRmMy03ZWMxOWJhODE0ZDQifQ.SYjOroxbfXf_NgaCT0DcLcBD1G4Ve0VTl309EEYLPp0' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effect team smile policy finally conference respond.","maxScore":79,"minScore":1,"description":"Or force single direction. Travel investment group go. Wrong scientist wish.\nDetermine standard hair someone meeting pressure story difficult. Hour natural wall alone out.","estimatedTime":"3 weeks","previewFileId":"5c02a108-9cda-46cb-bc77-3313d323dc6b","createdByUserId":"dacdb55d-d4c6-428d-84f3-7ec19ba814d4"}'

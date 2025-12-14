@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI2LjY1NzcyNSIsInVzZXJfaWQiOiIzNjdkMDc1ZS0yNzIyLTQyYjEtODY4Yy1kYmY3NjY3ZjUxNDYifQ.mjVPAwRqt7zTzmj8fS0_S_tg2OZs0BQm01uP3ZrHIAM' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly care course nothing spend pick my.","maxScore":70,"minScore":27,"description":"Peace Mrs condition lead. Know ok lot trouble. Relationship hope right out yes themselves. Learn notice somebody article.","estimatedTime":"8 weeks","previewFileId":"86ae1c79-b1e4-45c8-b28a-418aa5482d12","createdByUserId":"367d075e-2722-42b1-868c-dbf7667f5146"}'

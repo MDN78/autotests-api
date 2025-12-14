@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI1LjQ3NzU1MiIsInVzZXJfaWQiOiI3ZmQzMDNiYi1jZjU4LTQ5ZWEtOTRiYy1hMzMzNTM4OTNkZjIifQ.252ozB5Z-B1xINSrt1Y1tYYXIxoF3DZExgATsICx7Xk' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe seek wide before six us make.","maxScore":57,"minScore":13,"description":"Manager forward board agree. Not artist say cut PM send. Write respond bag else new animal.\nAgent economy new Mr. Growth wish spring apply. Discover upon alone generation probably knowledge.","estimatedTime":"1 weeks","previewFileId":"069ad0db-9e47-4d84-847d-3dda4bc9c5b2","createdByUserId":"7fd303bb-cf58-49ea-94bc-a33353893df2"}'

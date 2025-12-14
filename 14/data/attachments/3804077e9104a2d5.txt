@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI3Ljg2ODAzNiIsInVzZXJfaWQiOiIwYWIyMWUwNS1iN2M1LTQyNmYtODhjMy0wYzgzNzIxZWQ3MWEifQ.R4vitU_buAHSZITJYr4SlGTjZ0JXi90mULpazLgZG78' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Site capital class news.","courseId":"c67d7b85-4966-4563-8ea2-0731810fdffd","maxScore":76,"minScore":11,"orderIndex":82,"description":"Thought spring above eat. Technology couple certainly they pretty body million.\nOn about thus Democrat.","estimatedTime":"7 weeks"}'

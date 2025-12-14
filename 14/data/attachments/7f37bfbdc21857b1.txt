@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI2LjA2MTM2MiIsInVzZXJfaWQiOiJkYWNkYjU1ZC1kNGM2LTQyOGQtODRmMy03ZWMxOWJhODE0ZDQifQ.SYjOroxbfXf_NgaCT0DcLcBD1G4Ve0VTl309EEYLPp0' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law operation we camera though.","courseId":"8efe740e-a18b-461a-a76c-7bac72425421","maxScore":89,"minScore":5,"orderIndex":2,"description":"Pull direction attack standard.\nBuild resource expert Mrs side old. Along situation conference give drop.\nRegion itself whole eight order almost wonder especially. Painting would PM always air.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjI0Ljg4OTA1OCIsInVzZXJfaWQiOiI1MjkyNTI2ZS05ODBmLTQ4N2QtYmQzYS0xMGI2N2RhNzVjZWEifQ.8y6Uml74ZCHk8mJ9JA1gCu2Nu9WPAQsw3K9jalDRrZg' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seven toward fly investment.","maxScore":74,"minScore":15,"description":"Responsibility act might together purpose million. Parent fear how develop medical window.\nHe operation factor. Country gas employee floor.\nOfficial red international as.","estimatedTime":"4 weeks","previewFileId":"5fe7f44a-2bdb-4a3e-8c85-84697bde1324","createdByUserId":"5292526e-980f-487d-bd3a-10b67da75cea"}'

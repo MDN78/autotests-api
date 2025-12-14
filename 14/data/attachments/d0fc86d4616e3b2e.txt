@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDExOjM1OjIzLjcxNjg1OCIsInVzZXJfaWQiOiI0ZDZlZWUyMi1mZDZlLTQwN2YtODM4NS01YTBlOWJhZDQzYzQifQ.OKkEWwJi4o8RSxuP6DhrrYN3ze0M6E7N0UIkwFC9pG8' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm pass receive score seek production yourself describe.","maxScore":61,"minScore":8,"description":"Policy with check practice. School five someone human adult someone order main. Describe season point improve.\nSituation billion exactly. Order door friend walk. Hundred argue about space.","estimatedTime":"7 weeks","previewFileId":"24211134-e592-4106-96b3-55568c50c4ff","createdByUserId":"4d6eee22-fd6e-407f-8385-5a0e9bad43c4"}'
