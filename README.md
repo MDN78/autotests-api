@@ -10,8 +10,8 @@ application’s source code is available on [GitHub](https://github.com/Nikita-F
 <p  align="left">
 <code><img width="5%" title="pycharm" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg"></code>
 <code><img width="5%" title="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"></code>
-<code><img width="5%" title="pytest" src="https://github.com/MDN78/MDN78/blob/main/assets/pytest.png"></code>
-<code><img width="5%" title="HTTPX" src="https://github.com/MDN78/MDN78/blob/main/assets/butterfly.png"></code>  
+<code><img width="7%" title="pytest" src="https://github.com/MDN78/MDN78/blob/main/assets/pytest.png"></code>
+<code><img width="7%" title="HTTPX" src="https://github.com/MDN78/MDN78/blob/main/assets/butterfly.png"></code>  
 <code><img width="5%" title="allure" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_report.png"></code>
 </p>
 
@@ -29,16 +29,35 @@ This project is specifically designed for API autotests, incorporating best prac
 - Fake data generation to simulate real-world scenarios,
 - And more advanced techniques to improve test efficiency and reliability.
 - The project structure follows industry standards to ensure clarity, maintainability, and scalability of the test code.
+- [Swagger coverage tool](https://github.com/Nikita-Filonov/swagger-coverage-tool)
+- Pytest-xdist - distributing tests across multiple CPUs to speed up test execution
+- CI / CD process
+- Logging
+
+## Tests blocks:
+
+- [x] Authentication
+- [x] Courses
+- [x] Exercises
+- [x] Files
+- [x] Users
 
 ## Getting Started
+
+### Preconditions
+
+- Clone and install test
+  server [API Course Test Server](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course)
+- Configure it according to the instructions
+- Start it before tests
 
 ### Clone the Repository
 
 To get started, clone the project repository using Git:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/MDN78/autotests-api
+cd autotests-api
 ```
 
 ### Create a Virtual Environment
@@ -70,20 +89,38 @@ pip install -r requirements.txt
 
 ### Running the Tests with Allure Report Generation
 
-To run the tests and generate an Allure report, use the following command:
+To run the tests and generate an `Allure report`, use the following command:
 
 ```bash
-pytest -m "regression" --alluredir=./allure-results
+pytest -m "regression"
 ```
 
 This will execute all tests in the project and display the results in the terminal.
 
 ### Viewing the Allure Report
 
-After the tests have been executed, you can generate and view the Allure report with:
+After the tests have been executed, you can generate and view the `Allure report` with:
 
 ```bash
 allure serve allure-results
 ```
 
 This command will open the Allure report in your default web browser.
+
+### Viewing Swagger coverage report
+
+After the tests have been executed, you can generate and view the `Swagger coverage report`
+
+```commandline
+swagger-coverage-tool save-report
+```
+
+This command will generate a report with file `coverage.html`
+Open file `coverage.html` and you can see detail information about API coverage, history and statistics.
+
+Also, you can find this file in GitHub, sections `Actions -> workflows -> Artifacts`
+
+Report examples:
+
+![Main page](assets/swagger_covarege_report_1.png)
+![Second page](assets/swagger_covarege_report_2.png)
