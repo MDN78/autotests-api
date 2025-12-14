@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ3LjQxMDcxNiIsInVzZXJfaWQiOiJhZGRhZjhjNC0zZWY2LTQ0MDAtOTY0Yi02ODAxOTRmZDA1NjUifQ.fycvM8tofB741WZDO786o-z6d235NNKFgUgXV_PAfnY' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show team owner.","courseId":"de685d03-d2a8-4bba-9042-4d8bd2a957dd","maxScore":54,"minScore":15,"orderIndex":14,"description":"Move specific usually consumer against talk that area.\nAmount visit education truth who choose star. Personal professor exist. Enjoy out might.","estimatedTime":"3 weeks"}'

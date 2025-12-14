@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fb500ccb-6c7f-4a5d-8ca4-ea29cad643ef' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ2LjIyNTA4MSIsInVzZXJfaWQiOiJmN2RkNGMzZi0xMWY2LTQ3NzEtYTllYy1lZmE3NTFiMjk4MzIifQ.Olba6b5j5l0k5UY6SHWmAg6IXq46Ff69tdKUkBEcQ5U' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tend pattern life begin.","maxScore":58,"minScore":19,"description":"However well away. Pay meeting conference. Relationship order care respond simple herself wind.\nGo data memory national take record place. Leader back activity back best skin buy.","estimatedTime":"7 weeks"}'

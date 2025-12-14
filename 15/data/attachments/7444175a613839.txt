@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ4LjMzMDIyOSIsInVzZXJfaWQiOiI1NmZlOTg3My1jYzEzLTRiMzctYmFhYS0zMGUwOTQ0MWE4ODEifQ.PoX0y7e3lDlxDKcpDhREtZJpiJgCH8K5rnoJiyM5s-w' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Across administration involve music parent analysis during.","maxScore":90,"minScore":4,"description":"Top population can chance surface resource already. Image scientist through travel. Mrs member left indicate property. Important Democrat particularly treatment thing respond.","estimatedTime":"9 weeks","previewFileId":"d9e33001-2e90-4a00-8383-e9f693a287b3","createdByUserId":"56fe9873-cc13-4b37-baaa-30e09441a881"}'

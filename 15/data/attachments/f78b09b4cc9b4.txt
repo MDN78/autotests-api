@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ1Ljk1MDg2NSIsInVzZXJfaWQiOiI1MWVlZGQ5ZC0yNDk3LTQ2NTAtOTE4NS0yY2RhYzBhMzgwNjAifQ.n3Pzu-yVsqAltlI_3AgYPtlW0Pq4l2_wBpM0-ni8JiU' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reason again provide.","maxScore":95,"minScore":26,"description":"Voice far draw travel paper technology story. Father not we offer hair two. Seat until question always summer charge.\nBlood shake protect write best magazine. Factor after action total.","estimatedTime":"3 weeks","previewFileId":"e4cebbd5-ebd1-4c12-b10e-d52aeefe00de","createdByUserId":"51eedd9d-2497-4650-9185-2cdac0a38060"}'

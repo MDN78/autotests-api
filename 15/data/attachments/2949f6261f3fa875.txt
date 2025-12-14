@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ3LjQxMDcxNiIsInVzZXJfaWQiOiJhZGRhZjhjNC0zZWY2LTQ0MDAtOTY0Yi02ODAxOTRmZDA1NjUifQ.fycvM8tofB741WZDO786o-z6d235NNKFgUgXV_PAfnY' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Notice prevent yard early too car effort dream.","maxScore":65,"minScore":1,"description":"While really small every matter detail consumer heart. Simple technology least very participant chair available.\nSign grow whether. Leader hair almost develop memory child.","estimatedTime":"9 weeks","previewFileId":"55e74054-c956-4492-8909-4afd8e04568f","createdByUserId":"addaf8c4-3ef6-4400-964b-680194fd0565"}'

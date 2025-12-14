@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ3LjEzNTYzNiIsInVzZXJfaWQiOiI3MDY1NGFmZi0yMzIwLTRlNWYtYWY4OC03MDI4Y2IyZDQ1ZDAifQ.CRvSmT2wIdlfRsA60ilW1ek0hKCsYnTQbT_WzIhSuZ8' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bank plan in respond worry.","maxScore":97,"minScore":5,"description":"Stage at would daughter share decade. Weight director five return arm pick public. Lead avoid guess body modern.","estimatedTime":"3 weeks","previewFileId":"5081a936-a689-4123-ba3c-ebbeba69f89e","createdByUserId":"70654aff-2320-4e5f-af88-7028cb2d45d0"}'

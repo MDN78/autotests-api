@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ4LjYwNTA3MiIsInVzZXJfaWQiOiJlNjdmYzYxOC02OGViLTQ0YmItOGRjYi1jYThlMzVlZTdjZDUifQ.P9Bdt4IQob0Jhn-o390CvLbqPd3BJoeAk5oKu1SPXPw' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate image difference out.","maxScore":86,"minScore":6,"description":"Knowledge rate ask moment window account. Cost friend short decade or card. Call do Mrs. Share week according individual learn.\nFinally event that.","estimatedTime":"8 weeks","previewFileId":"eaa0090a-f2c3-4dd9-84d0-a436c1d5c15a","createdByUserId":"e67fc618-68eb-44bb-8dcb-ca8e35ee7cd5"}'

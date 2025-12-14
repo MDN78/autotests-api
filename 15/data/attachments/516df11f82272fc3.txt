@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/d5b53d68-2d91-426e-ac0e-c8f91d977c01' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ3LjQxMDcxNiIsInVzZXJfaWQiOiJhZGRhZjhjNC0zZWY2LTQ0MDAtOTY0Yi02ODAxOTRmZDA1NjUifQ.fycvM8tofB741WZDO786o-z6d235NNKFgUgXV_PAfnY' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Member everything be first event drive.","maxScore":52,"minScore":7,"orderIndex":20,"description":"Approach happen hold cup pattern too. Third process picture end generation tough. Require share audience manager per challenge condition sign.","estimatedTime":"5 weeks"}'

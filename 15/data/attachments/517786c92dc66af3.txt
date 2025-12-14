@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ0LjgwOTg3MiIsInVzZXJfaWQiOiJkZWFjYzg3Yy1lYWQ0LTQyNzAtYTk2OC0zZWVlMDFmNmFlYTgifQ.fjSGWIbiKnZSSuL24WBuXR4HrOvr5XaVAR7qrFs-73k' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five visit this carry quickly deal.","maxScore":99,"minScore":4,"description":"Likely section ten color executive standard. Serve hard relate.\nTry social they second effect ask politics. Early eye bit. Early response animal young.","estimatedTime":"6 weeks","previewFileId":"37b4ee3e-2a14-4d47-93ed-0c55d4f5564d","createdByUserId":"deacc87c-ead4-4270-a968-3eee01f6aea8"}'

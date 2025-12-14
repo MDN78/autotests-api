@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE0VDEyOjA1OjQ3LjEzNTYzNiIsInVzZXJfaWQiOiI3MDY1NGFmZi0yMzIwLTRlNWYtYWY4OC03MDI4Y2IyZDQ1ZDAifQ.CRvSmT2wIdlfRsA60ilW1ek0hKCsYnTQbT_WzIhSuZ8' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remember relationship realize.","courseId":"bd0b33a5-05a1-4faf-9d55-0fa222a5acaf","maxScore":57,"minScore":10,"orderIndex":13,"description":"Easy black stage special space air economy garden.\nNight seat beat person stage church avoid star. Boy perhaps such tonight technology performance.","estimatedTime":"7 weeks"}'
